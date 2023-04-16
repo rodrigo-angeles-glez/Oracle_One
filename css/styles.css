@@ -47,9 +47,140 @@ main {
     text-align: center;
     color: var(--text-error);
   }
+
   .contenedor {
     display: flex;
+    justify-content: space-between;
   }
+
+  #text-encriptar {
+    border-radius: 10px;
+    border: 2px solid #FFFFFF;
+    height: 350px;
+    width: 450px;
+    resize: none;
+    background: transparent;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 40px;
+    margin-bottom: 0px;
+  }
+
+textarea::placeholder {
+  font-size: 16px;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  opacity: 0.5;
+}
+
+.text-informacion {
+  margin-top: 1px;
+  text-align: left;
+  color: #F4F6F6;
+  font-size: 15px;
+}
+
+.text-informacion p {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.btn-encriptar {
+  background: #0A3871;
+  border: 2px solid #0A3871;
+  color: #FFFFFF;
+  width: 40%;
+  border-radius: 20px;
+  margin: 0px;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  width: 45%;
+}
+
+.btn-encriptar:hover {
+  background: #D8DFE8;
+  border: 2px solid #0A3871;
+  color: #0A3871;
+}
+
+.btn-desencriptar {
+  background: #D8DFE8;
+  border: 2px solid #0A3871;
+  color: #0A3871;
+  width: 40%;
+  border-radius: 20px;
+  margin: 0px;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  width: 45%;
+}
+
+.btn-desencriptar:hover {
+  background: #0A3871;
+  border: 2px solid #0A3871;
+  color: #FFFFFF;
+}
+
+.main-right {
+  height: 435px;
+  width: 280px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  border: 2px solid #FFFFFF;
+  text-align: center;
+  align-items: center;
+}
+
+#text-desencriptar {
+  background-image: url(../assets/img/monito.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  border-radius: 10px;
+  border: none;
+  height: 300px;
+  width: 260px;
+  resize: none;
+  margin: 0px;
+}
+
+.text-info-desencriptar h1 {
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+  color: #868E96;
+  font-size: 20px;
+}
+
+.text-info-desencriptar p {
+  margin-top: 5px;
+  font-family: 'Roboto', sans-serif;
+  color: #495057;
+  font-size: 12px;
+}
+
+.btn-copiar {
+  display: none;
+  background: #D8DFE8;
+  border: 2px solid #0A3871;
+  color: #0A3871;
+  width: 40%;
+  border-radius: 20px;
+  margin: 0px;
+  padding: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  width: 45%;
+}
+
+.btn-copiar:hover {
+  background: #0A3871;
+  border: 2px solid #0A3871;
+  color: #FFFFFF;
+}
+
 
 footer {
   display: flex;
